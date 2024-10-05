@@ -1,3 +1,10 @@
+## s003 - InMemoryUserDetailsManager(使用内存的用户详情管理器来创建用户)
+- 删除s002的配置文件中创建用户部分
+- 在 `SecurityConfiguration` 中添加 `UserDetailsService` 的Bean
+- 修改`SecurityConfiguration`类的`securityFilterChain`方法，使`/user`拥有`USER`角色才可以访问，`/admin`拥有`ADMIN`角色才可以访问
+- 修改 `/admin`方法，使之更容易区分
+
+
 ## s002 - SecurityFilterChain
 - 修改配置文件，添加日志
 - 修改配置文件，添加用户名，密码和角色

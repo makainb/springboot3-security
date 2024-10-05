@@ -12,6 +12,7 @@
     <modules>
         <module>s001-create-project</module>
         <module>s002-security-filter-chain</module>
+        <module>s003-in-memory-user-details-manager</module>
     </modules>
 
     <properties>
