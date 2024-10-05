@@ -1,6 +1,13 @@
 ## s005 - Single-Sign On(单点登录)
 
 ## s004 - JdbcUserDetailsManager()
+- 添加 `h2` 数据库和 `jdbc` 的依赖
+- 删除 `SecurityConfiguration`中的`userDetailsService`方法
+- `SecurityConfiguration` 类添加 `dataSource` 方法
+- `SecurityConfiguration` 类添加 `jdbcUserDetailsManager` 方法
+- `S004Application` 类添加 `commandLineRunner`方法,创建用户
+- 在 `/src/main/resources`目录下添加数据库初始化文件`schema.sql`
+
 
 ## s003 - InMemoryUserDetailsManager(使用内存的用户详情管理器来创建用户)
 - 删除s002的配置文件中创建用户部分
