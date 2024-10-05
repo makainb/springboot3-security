@@ -1,3 +1,5 @@
+## s005 - Single-Sign On(单点登录)
+
 ## s004 - JdbcUserDetailsManager()
 
 ## s003 - InMemoryUserDetailsManager(使用内存的用户详情管理器来创建用户)
