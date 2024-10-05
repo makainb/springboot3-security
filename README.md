@@ -1,3 +1,5 @@
+## s004 - JdbcUserDetailsManager()
+
 ## s003 - InMemoryUserDetailsManager(使用内存的用户详情管理器来创建用户)
 - 删除s002的配置文件中创建用户部分
 - 在 `SecurityConfiguration` 中添加 `UserDetailsService` 的Bean

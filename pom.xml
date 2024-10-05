@@ -13,6 +13,7 @@
         <module>s001-create-project</module>
         <module>s002-security-filter-chain</module>
         <module>s003-in-memory-user-details-manager</module>
+        <module>s004-jdbc-user-details-manager-h2</module>
     </modules>
 
     <properties>
