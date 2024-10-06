@@ -1,5 +1,14 @@
-## s005 - Single-Sign On(单点登录)
+## s006 - Multiple SecurityFilterChain
 
+## s005 - Single-Sign On(单点登录)
+- 引入 `oauth2-client` 的依赖
+- 在 `SecurityConfiguration`的`securityFilter`方法中，添加对`oauth2Login` 的支持
+- 引入 `google` 和 `github` 的 `client-id` 和 `client-security`
+```
+http://localhost:8080/login/oauth2/code/google
+278907111242-1eunjkpptcor9hp1sjosfmgp2qqqqppf.apps.googleusercontent.com
+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
+```
 ## s004 - JdbcUserDetailsManager()
 - 添加 `h2` 数据库和 `jdbc` 的依赖
 - 删除 `SecurityConfiguration`中的`userDetailsService`方法

@@ -14,6 +14,8 @@
         <module>s002-security-filter-chain</module>
         <module>s003-in-memory-user-details-manager</module>
         <module>s004-jdbc-user-details-manager-h2</module>
+        <module>s005-single-sign-on</module>
+        <module>s006-multily-security-filter-chain</module>
     </modules>
 
     <properties>
