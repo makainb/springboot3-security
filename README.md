@@ -1,4 +1,21 @@
+## s008 - 创建一个自定义的 UserDetailsService，并且从数据库中取用户信息
+
+
+
+## s007 - MyUserDetailsService
+- 基于s004的代码制做
+- 清理依赖
+- 清理S`007Application`类的runner
+- 清理`SecurityConfiguration`的jdbcdetailService
+- `SecurityConfiguration` 添加@Bean passwordEncoder,NoOpPasswordEncoder.getInstance()
+- `SecurityConfiguration` 添加@Bean ApplicationListener<AuthenticationSuccessEvent>
+- `SecurityConfiguration` 添加@Bean ApplicationListener<AuthenticationFailureBadCredentialsEvent>
+- 添加@Component MyUserDetailsService 实现UserDetailsService的方法
+- `SecurityConfiguration` 添加@Bean MyUserDetailsService
+
+
 ## s006 - Multiple SecurityFilterChain
+没啥好说的
 
 ## s005 - Single-Sign On(单点登录)
 - 引入 `oauth2-client` 的依赖
