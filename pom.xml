@@ -18,6 +18,7 @@
         <module>s006-multily-security-filter-chain</module>
         <module>s007-my-user-details-service</module>
         <module>s008-save-user-to-database</module>
+        <module>s009-custom-user</module>
     </modules>
 
     <properties>
