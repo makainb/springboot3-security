@@ -19,6 +19,7 @@
         <module>s007-my-user-details-service</module>
         <module>s008-save-user-to-database</module>
         <module>s009-custom-user</module>
+        <module>s010-custom-my-security-filter</module>
     </modules>
 
     <properties>
